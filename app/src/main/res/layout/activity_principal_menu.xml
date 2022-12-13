@@ -33,7 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="186dp"
                 android:contentDescription="@string/home"
-                app:srcCompat="@drawable/anoninus" />
+                app:srcCompat="@drawable/emergencia" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -44,8 +44,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/ic_plan_date"
-                    android:contentDescription="@string/schedule_date" />
+                    android:contentDescription="@string/schedule_date"
+                    app:srcCompat="@drawable/historialmedico" />
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -87,14 +87,14 @@
                     android:layout_height="60dp"
                     android:layout_weight="1"
                     android:contentDescription="@string/update_account"
-                    app:srcCompat="@drawable/ic_info" />
+                    app:srcCompat="@drawable/ubicacion" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/ic_exit"
-                    android:contentDescription="@string/exit" />
+                    android:contentDescription="@string/exit"
+                    app:srcCompat="@drawable/salida" />
             </LinearLayout>
 
             <LinearLayout

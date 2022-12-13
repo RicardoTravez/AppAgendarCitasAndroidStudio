@@ -20,10 +20,10 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_marginBottom="80dp"
                 android:contentDescription="@string/schedule_date"
-                app:srcCompat="@drawable/ic_plan_date" />
+                app:srcCompat="@drawable/sesion" />
 
             <TextView
                 android:layout_width="match_parent"

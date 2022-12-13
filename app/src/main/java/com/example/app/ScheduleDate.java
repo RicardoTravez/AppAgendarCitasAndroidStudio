@@ -33,7 +33,7 @@ public class ScheduleDate extends AppCompatActivity {
 
     // Constantes
     final int STARTHOUR = 9;
-    final String[] SESSION_TYPE =  {"test1", "test2", "test3", "test4"};
+    final String[] SESSION_TYPE =  {"Medicina General", "Dermatologia", "Nutricion", "Odontologia"};
 
     // Campos
     public Spinner spinnerType, spinnerDate, spinnerTime;
@@ -124,7 +124,7 @@ public class ScheduleDate extends AppCompatActivity {
 
     private boolean spinnerValidations() {
 
-        if (spinnerType.getSelectedItem().toString().trim().equals("<Selecciona un tipo de sesión>")) {
+        if (spinnerType.getSelectedItem().toString().trim().equals("<Selecciona tipo de Especialidad>")) {
             textViewType.setVisibility(View.VISIBLE);
         } else {
             textViewType.setVisibility(View.GONE);
@@ -150,7 +150,7 @@ public class ScheduleDate extends AppCompatActivity {
     private void fillTypes() {
         spinnerArray = new ArrayList<>();
 
-        spinnerArray.add("<Selecciona un tipo de sesión>");
+        spinnerArray.add("<Selecciona Especialidad>");
 
         Collections.addAll(spinnerArray, SESSION_TYPE);
 

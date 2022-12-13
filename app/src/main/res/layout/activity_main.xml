@@ -22,7 +22,7 @@
             android:layout_height="150dp"
             android:layout_marginBottom="20dp"
             android:contentDescription="@string/login"
-            app:srcCompat="@drawable/anoninus" />
+            app:srcCompat="@drawable/hospital" />
 
         <EditText
             android:id="@+id/editTextEmail"

@@ -1,6 +1,6 @@
 <resources>
     <!-- Elementos generales -->
-    <string name="salon_name">Nombre Empresa</string>
+    <string name="salon_name">TravezCli</string>
     <string name="email">Email</string>
     <string name="password">Contraseña</string>
 

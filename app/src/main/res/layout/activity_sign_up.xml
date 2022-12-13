@@ -27,7 +27,7 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="20dp"
                 android:contentDescription="@string/sign_up"
-                app:srcCompat="@drawable/ic_info" />
+                app:srcCompat="@drawable/usuario" />
 
             <EditText
                 android:id="@+id/editTextFirstName"
@@ -35,7 +35,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:drawablePadding="10dp"
                 android:ems="10"
                 android:foreground="@drawable/shape"
                 android:hint="Nombre"
@@ -52,7 +51,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:drawablePadding="10dp"
                 android:ems="10"
                 android:foreground="@drawable/shape"
                 android:hint="@string/last_name"
