@@ -20,30 +20,45 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="150dp"
+            android:layout_marginBottom="20dp"
             android:contentDescription="@string/login"
             app:srcCompat="@drawable/anoninus" />
 
         <EditText
             android:id="@+id/editTextEmail"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:ems="10"
+            android:foreground="@drawable/shape"
             android:hint="@string/email"
             android:importantForAutofill="no"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            android:textColorHint="#EFE9E9"
+            app:drawableLeftCompat="@drawable/ic_email"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/editTextPassword"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:ems="10"
+            android:foreground="@drawable/shape"
             android:hint="@string/password"
             android:importantForAutofill="no"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="#FAF6F6"
+            app:drawableLeftCompat="@drawable/ic_baseline_no_encryption_gmailerrorred_24"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <Button
             style="@style/button"
-            android:layout_width="match_parent"
+            android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_margin="0dp"
             android:onClick="buttonLogin"
@@ -58,11 +73,12 @@
 
         <Button
             style="@style/button"
-            android:layout_width="match_parent"
+            android:layout_width="180dp"
             android:layout_height="wrap_content"
-            android:layout_margin="0dp"
+            android:layout_margin="10dp"
             android:onClick="buttonSignUp"
-            android:text="@string/sign_up" />
+            android:text="@string/sign_up"
+            android:textColor="#64DD17" />
 
         <TextView
             android:layout_width="match_parent"
@@ -70,32 +86,38 @@
             android:textColor="@color/red" />
 
         <LinearLayout
-            android:layout_width="190dp"
-            android:layout_height="51dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="20dp"
                 android:foreground="@drawable/facebook"
-                android:text="Button" />
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/git"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="20dp"
                 android:foreground="@drawable/github"
                 android:paddingLeft="50dp"
                 android:paddingRight="50dp"
-                android:paddingBottom="10dp" />
+                android:paddingBottom="10dp"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="20dp"
                 android:foreground="@drawable/cromo"
-                android:paddingBottom="10dp" />
+                android:paddingBottom="10dp"
+                tools:ignore="SpeakableTextPresentCheck" />
 
         </LinearLayout>
 

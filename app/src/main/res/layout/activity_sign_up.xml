@@ -23,86 +23,139 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_width="361dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
                 android:contentDescription="@string/sign_up"
                 app:srcCompat="@drawable/ic_info" />
 
             <EditText
                 android:id="@+id/editTextFirstName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="10dp"
                 android:ems="10"
-                android:hint="@string/first_name"
+                android:foreground="@drawable/shape"
+                android:hint="Nombre"
                 android:importantForAutofill="no"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:paddingLeft="15dp"
+                android:textColorHint="#FAF6F6"
+                app:drawableLeftCompat="@drawable/ic_persona"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <EditText
                 android:id="@+id/editTextLastName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="10dp"
                 android:ems="10"
+                android:foreground="@drawable/shape"
                 android:hint="@string/last_name"
                 android:importantForAutofill="no"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:paddingLeft="15dp"
+                android:textColor="#ECE6E6"
+                android:textColorHint="#FBF9F9"
+                app:drawableLeftCompat="@drawable/ic_persona"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <EditText
                 android:id="@+id/editTextDOB"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:clickable="true"
+                android:drawableLeft="@drawable/ic_baseline_analytics_24"
                 android:focusable="false"
+                android:foreground="@drawable/shape"
                 android:hint="@string/dob"
                 android:importantForAutofill="no"
                 android:inputType="date"
                 android:maxLines="1"
                 android:onClick="showDatePickerDialog"
-                tools:ignore="KeyboardInaccessibleWidget" />
+                android:paddingLeft="15dp"
+                android:textColorHint="#FAF6F6"
+                tools:ignore="KeyboardInaccessibleWidget,TouchTargetSizeCheck" />
 
             <EditText
                 android:id="@+id/editTextPhone"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_baseline_app_shortcut_24"
                 android:ems="10"
+                android:foreground="@drawable/shape"
                 android:hint="@string/phone"
                 android:importantForAutofill="no"
-                android:inputType="phone" />
+                android:inputType="phone"
+                android:paddingLeft="15dp"
+                android:textColorHint="#FBF7F7"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <EditText
                 android:id="@+id/editTextEmailAddress"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_email"
                 android:ems="10"
+                android:foreground="@drawable/shape"
                 android:hint="@string/email"
                 android:importantForAutofill="no"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"
+                android:paddingLeft="15dp"
+                android:textColorHint="#FAF8F8"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <EditText
                 android:id="@+id/editTextPassword1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
                 android:ems="10"
+                android:foreground="@drawable/shape"
                 android:hint="@string/password"
                 android:importantForAutofill="no"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:textColorHint="#F8F5F5"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <EditText
                 android:id="@+id/editTextPassword2"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_baseline_no_encryption_gmailerrorred_24"
                 android:ems="10"
+                android:foreground="@drawable/shape"
                 android:hint="@string/password2"
                 android:importantForAutofill="no"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:textColorHint="#FAF6F6"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <Button
                 style="@style/button"
-                android:layout_width="match_parent"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="0dp"
+                android:layout_marginBottom="20dp"
                 android:onClick="buttonSignUp"
-                android:text="@string/sign_up" />
+                android:text="@string/sign_up"
+                android:textColor="#DD2C00" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

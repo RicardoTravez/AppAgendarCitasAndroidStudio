@@ -1,7 +1,7 @@
 <resources>
     <!-- Elementos generales -->
     <string name="salon_name">Nombre Empresa</string>
-    <string name="email">Correo electrónico</string>
+    <string name="email">Email</string>
     <string name="password">Contraseña</string>
 
     <!-- Elementos de inicio de sesión -->
