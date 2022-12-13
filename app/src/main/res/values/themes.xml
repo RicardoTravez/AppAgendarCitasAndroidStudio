@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="login" parent="Theme.AppCompat">
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+</resources>

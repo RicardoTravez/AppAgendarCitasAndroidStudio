@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/anoninus"
+        android:label="@string/salon_name"
+        android:roundIcon="@drawable/anoninus"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pastel" >
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <activity
+            android:name=".Info"
+            android:label="@string/about_me"
+            android:parentActivityName=".PrincipalMenu" >
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalMenu" />
+        </activity>
+        <activity
+            android:name=".SelectDate"
+            android:label="@string/select_date"
+            android:parentActivityName=".PrincipalMenu" >
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalMenu" />
+        </activity>
+        <activity
+            android:name=".ScheduleDate"
+            android:label="@string/schedule_date"
+            android:parentActivityName=".PrincipalMenu" >
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalMenu" />
+        </activity>
+        <activity
+            android:name=".PrincipalMenu"
+            android:label="@string/home"
+            android:parentActivityName=".MainActivity" >
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/sign_up"
+            android:parentActivityName=".MainActivity" >
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

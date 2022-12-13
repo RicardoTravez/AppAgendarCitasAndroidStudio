@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    
+    <!-- pastel -->
+    <color name="lavender_purple">#957DAD</color>
+    <color name="pastel_violet">#00BFA5</color>
+    <color name="cyber_grape">#57466D</color>
+    <color name="snow">#FEF5FA</color>
+    
+    <color name="colorAccent">@color/cyber_grape</color>
+</resources>
