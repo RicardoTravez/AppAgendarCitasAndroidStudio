@@ -38,22 +38,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/schedule_date"
-                    app:srcCompat="@drawable/historialmedico" />
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/select_date"
-                    app:srcCompat="@drawable/ic_change" />
-            </LinearLayout>
+                android:orientation="horizontal"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -65,6 +50,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/shape"
+                    android:drawableTop="@drawable/lapiz"
                     android:onClick="buttonPlanDate"
                     android:text="@string/schedule_date" />
 
@@ -73,6 +60,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:drawableTop="@drawable/bloc"
                     android:onClick="buttonCancelDate"
                     android:text="@string/select_date" />
             </LinearLayout>
@@ -80,22 +68,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/update_account"
-                    app:srcCompat="@drawable/ubicacion" />
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/exit"
-                    app:srcCompat="@drawable/salida" />
-            </LinearLayout>
+                android:orientation="horizontal"/>
 
             <LinearLayout
                 style="@style/linear_layout_horizontal"
@@ -107,6 +80,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:drawableTop="@drawable/ubicacion"
                     android:onClick="buttonAboutMe"
                     android:text="@string/about_me" />
 
@@ -115,6 +89,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:drawableTop="@drawable/salida"
                     android:onClick="buttonExit"
                     android:text="@string/exit" />
             </LinearLayout>
